@@ -30,5 +30,31 @@ body {
 }
 
 
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 
+.nav-list {
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: blue;
+    font-size: 20px;
+    font-style: normal;
+    
+}
+
+
+html {
+    scroll-behavior: smooth; 
+  }
