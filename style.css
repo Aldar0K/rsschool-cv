@@ -1,5 +1,9 @@
-.body {
+body {
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 };
 
 
@@ -12,11 +16,16 @@
     border: 1px solid red;
 }
 
+
 .main {
-    border: 1px solid red;
+    border: 1px solid green;
 }
 
+
 .footer {
-    border: 1px solid red;
+    border: 1px solid blue;
 }
+
+
+
 
