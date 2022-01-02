@@ -46,15 +46,35 @@ body {
 
 
 .nav-link {
-    padding: 0 20px;
+    padding: 0 30px;
     line-height: 50px;
-    color: blue;
+
+    color: black;
     font-size: 20px;
     font-style: normal;
-    
+    text-decoration: none;
+
+    transition: .3s;
+}
+
+
+.nav-link:hover {
+    background-color: #F89B4D
 }
 
 
 html {
     scroll-behavior: smooth; 
+  }
+
+
+  .section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+
+
+.section-item a:hover {
+    color: #4d2323;
   }
