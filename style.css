@@ -41,7 +41,8 @@ body {
 
 
 .footer {
-    border: 1px solid blue;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 
@@ -103,6 +104,15 @@ html {
 
 .section {
     width: 50%;
+}
+
+
+.footer-container {
+    font-size: 20;
+    color: black;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 
