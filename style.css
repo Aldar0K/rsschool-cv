@@ -15,18 +15,9 @@ body {
 };
 
 
-.section-title {
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: red;
-  }
-
-
 * {
     box-sizing: border-box;
-  }
+}
 
 
 .header {
@@ -93,7 +84,7 @@ html {
 
 .section-item a:hover {
     color: #4d2323;
-  }
+}
 
 
 .container .main-container {
@@ -102,7 +93,7 @@ html {
 }
 
 
-.section {
+.container .main-container .section {
     width: 50%;
 }
 
@@ -120,4 +111,29 @@ html {
     .section {
       width: 100%;
     }
-  }
+}
+
+
+.section-profile-ico {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 70%);
+    filter: grayscale(0.25) brightness(1);
+    transition: 0.3s;
+}
+
+
+.section-profile-ico:hover {
+    filter: none;
+}
+
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+}
