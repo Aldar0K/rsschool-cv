@@ -60,12 +60,10 @@ html {
 .nav-link {
     padding: 0 30px;
     line-height: 50px;
-
     color: black;
     font-size: 22px;
     font-style: normal;
     text-decoration: none;
-
     transition: .3s;
 }
 
