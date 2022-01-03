@@ -36,7 +36,7 @@ body {
 
 
 .main {
-    border: 1px solid green;
+    border: 1px solid black;
 }
 
 
@@ -96,7 +96,7 @@ html {
   }
 
 
-.main-container {
+.container .main-container {
     display: flex;
     flex-wrap: wrap;
 }
@@ -107,7 +107,7 @@ html {
 }
 
 
-.footer-container {
+.container .footer-container {
     font-size: 20;
     color: black;
 
