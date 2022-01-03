@@ -212,3 +212,15 @@ html {
     padding: 0;
     list-style: square;
 }
+
+
+.footer-github {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+
+.footer-github:hover {
+    background-color: #1f1e1e25;
+}
