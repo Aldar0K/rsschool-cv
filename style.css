@@ -238,7 +238,16 @@ html {
 }
 
 
-.contacts-item:before {
+.section-item {
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 30px;
+}
+
+
+.location-item:before {
     content: "";
     position: absolute;
     top: 1px;
@@ -250,15 +259,58 @@ html {
 }
 
 
-.section-item {
-    position: relative;
-    margin: 0;
-    margin-bottom: 10px;
-    padding: 0;
-    padding-left: 30px;
+.location-item:nth-child(1):before {
+    background-image: url(assets/svg/location.svg);
 }
 
 
-.contacts-item:nth-child(1):before {
-    background-image: url(assets/img/addres.svg);
+.phone-item:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
+
+.phone-item:nth-child(2):before {
+    background-image: url(assets/svg/phone.svg);
+}
+
+
+.email-item:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.email-item:nth-child(3):before {
+    background-image: url(assets/svg/email.svg);
+}
+
+
+.github-item:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.github-item:nth-child(4):before {
+    background-image: url(assets/svg/github.svg);
+}
+
