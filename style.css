@@ -214,6 +214,19 @@ html {
 }
 
 
+.square-item:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(assets/svg/dot.svg);
+}
+
+
 .footer-github {
     text-decoration: none;
     color: black;
