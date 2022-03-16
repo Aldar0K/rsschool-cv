@@ -19,34 +19,28 @@ body {
     color: black;
 };
 
-
 html {
     scroll-behavior: smooth; 
 }
-
 
 .header {
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-
 .main {
     margin-bottom: auto;
 }
-
 
 .footer {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
 }
-
 
 .nav-list {
     display: flex;
@@ -55,7 +49,6 @@ html {
     list-style: none;
 
 }
-
 
 .nav-link {
     padding: 0 30px;
@@ -67,11 +60,9 @@ html {
     transition: .3s;
 }
 
-
 .nav-link:hover {
     background-color: #1f1e1e25
 }
-
 
 .section {
     width: 50%;
@@ -80,30 +71,25 @@ html {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-
 .section-item a {
     color: #829985;
     text-decoration: none;  
     transition: color 0.5s;
   }
 
-
 .section-item a:hover {
     color: #4d2323;
 }
-
 
 .main-container {
     display: flex;
     flex-wrap: wrap;
 }
 
-
 .header-container {
     display: flex;
     justify-content: center;
 }
-
 
 .footer-container {
     display: flex;
@@ -113,13 +99,15 @@ html {
     color: black;
 }
 
+.footer-container > a {
+    display: block;
+}
 
 @media (max-width: 768px) {
     .section {
       width: 100%;
     }
 }
-
 
 .section-profile {
     display: flex;
@@ -129,7 +117,6 @@ html {
     border-bottom: 15px solid rgba(0, 0, 0, 0.1);
 }
 
-
 .section-profile-title{
     display: flex;
     flex-direction: column;
@@ -138,7 +125,6 @@ html {
     text-align: center;
     text-transform: uppercase;
 }
-
 
 .section-profile-ico {
     width: 200px;
@@ -150,11 +136,9 @@ html {
     transition: 0.3s;
 }
 
-
 .section-profile-ico:hover {
     filter: none;
 }
-
 
 .section-title {
     font-size: 24px;
@@ -175,7 +159,6 @@ html {
     letter-spacing: 3px;
 }
 
-
 .main-title::after {
     content: "";
     position: absolute;
@@ -186,7 +169,6 @@ html {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-
 .section-subtitle {
     font-size: 22px;
     font-weight: 400;
@@ -195,24 +177,20 @@ html {
     color: black;
 }
 
-
 .pre {
     padding: 0;
     margin: 0;
 }
 
-
 .section-english {
     border-bottom: 0;
 }
-
 
 .section-list {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-
 
 .square-item:before {
     content: "";
@@ -226,18 +204,15 @@ html {
     background-image: url(assets/svg/dot.svg);
 }
 
-
 .footer-github {
     text-decoration: none;
     color: black;
     transition: color 0.3s;
 }
 
-
 .footer-github:hover {
     background-color: #1f1e1e25;
 }
-
 
 .footer-rsschool {
     text-decoration: none;
@@ -245,11 +220,9 @@ html {
     transition: color 0.3s;
 }
 
-
 .footer-rsschool:hover {
     background-color: #1f1e1e25;
 }
-
 
 .section-item {
     position: relative;
@@ -258,7 +231,6 @@ html {
     padding: 0;
     padding-left: 30px;
 }
-
 
 .location-item:before {
     content: "";
@@ -271,11 +243,9 @@ html {
     background-repeat: no-repeat;
 }
 
-
 .location-item:nth-child(1):before {
     background-image: url(assets/svg/location.svg);
 }
-
 
 .phone-item:before {
     content: "";
@@ -288,11 +258,9 @@ html {
     background-repeat: no-repeat;
 }
 
-
 .phone-item:nth-child(2):before {
     background-image: url(assets/svg/phone.svg);
 }
-
 
 .email-item:before {
     content: "";
@@ -305,11 +273,9 @@ html {
     background-repeat: no-repeat;
 }
 
-
 .email-item:nth-child(3):before {
     background-image: url(assets/svg/email.svg);
 }
-
 
 .github-item:before {
     content: "";
@@ -322,8 +288,6 @@ html {
     background-repeat: no-repeat;
 }
 
-
 .github-item:nth-child(4):before {
     background-image: url(assets/svg/github.svg);
 }
-
